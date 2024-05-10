@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist>
+  <dict>
+    <key>CFBundleExecutable</key>
+    <string>FlyVibratoV1D</string>
+    <key>CFBundleIconFile</key>
+    <string></string>
+    <key>CFBundleIdentifier</key>
+    <string>com.LUMINECHODSP.FlyVibratoV1D</string>
+    <key>CFBundleName</key>
+    <string>FlyVibratoV1D</string>
+    <key>CFBundleDisplayName</key>
+    <string>FlyVibratoV1D</string>
+    <key>CFBundlePackageType</key>
+    <string>BNDL</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleShortVersionString</key>
+    <string>0.0.1</string>
+    <key>CFBundleVersion</key>
+    <string>0.0.1</string>
+    <key>NSHumanReadableCopyright</key>
+    <string>LUMINECHODSP</string>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>AudioComponents</key>
+    <array>
+      <dict>
+        <key>name</key>
+				<string>LUMINECHODSP: FlyVibratoV1D</string>
+        <key>description</key>
+				<string>FlyVibratoV1D</string>
+        <key>factoryFunction</key>
+        <string>RNBO_Plugin_AUFactory</string>
+        <key>manufacturer</key>
+				<string>LMCH</string>
+        <key>type</key>
+				<string>aufx</string>
+        <key>subtype</key>
+				<string>FrIq</string>
+        <key>version</key>
+        <integer>1</integer>
+        <key>resourceUsage</key>
+        <dict>
+          <key>network.client</key>
+          <true/>
+          <key>temporary-exception.files.all.read-write</key>
+          <true/>
+        </dict>
+      </dict>
+    </array>
+  </dict>
+</plist>
